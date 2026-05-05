@@ -1,3 +1,6 @@
+## Live Demo
+https://team-task-manager-full-stack-production-3a6d.up.railway.app
+
 # Team Task
 
 Full-stack project and task management app with authentication, team roles, project membership, task assignment, progress tracking, and a dashboard.
