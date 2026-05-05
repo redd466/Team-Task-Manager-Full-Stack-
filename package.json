@@ -1,0 +1,22 @@
+{
+  "name": "team-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm --prefix backend install && npm --prefix frontend install",
+    "dev": "npm --prefix backend run dev",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend start",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix backend start",
+    "test": "npm --prefix frontend test -- --watchAll=false --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  }
+}
