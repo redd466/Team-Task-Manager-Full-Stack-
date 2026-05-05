@@ -6,7 +6,7 @@ COPY backend/package*.json ./backend/
 COPY frontend/package*.json ./frontend/
 
 RUN npm ci --prefix backend
-RUN npm ci --prefix frontend
+RUN npm install --prefix frontend
 
 COPY . .
 
